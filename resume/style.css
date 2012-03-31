@@ -1,0 +1,105 @@
+/*
+Theme Name: Resume
+Theme URI: http://gabesimagination.com/resume
+Description: A Theme for building and managing a skills-based resume
+Author: gabe shaughnessy
+Author URI: http://gabesimagination.com
+Version: 1.0
+Tags: resume, skills, print
+
+License: GPL
+License URI: http://www.gnu.org/copyleft/gpl.html
+
+This Theme is for buildign your resume, using posts and post categories. It has a one-page display template with a killer print stylesheet so you can export PDF's using the print as pdf command.
+*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:  bold;
+	
+}
+.align-right {
+	text-align: right;
+}
+section {
+	margin: 0 0;
+	padding: 1em;
+	
+}
+section:nth-child(even){
+	background: #eee;
+}
+h1{
+	margin-bottom: 0.2em;
+}
+h3 {
+		text-transform: uppercase;
+	
+	font-size:  1.1em;
+	margin-bottom:  .5em;
+}
+dl{
+	line-height:  24px;
+}
+dt{
+	float:  left;
+	margin-right: 2em;
+}
+.title .the_date{
+	text-align: right;
+	font-size: .9em;
+}
+.the_date span{
+	font-style:  italic;
+}
+.title{
+	position: relative;
+}
+.title .contact_details{
+	color:  #888;
+}
+.title .entry-content {
+	margin-top: 1em;
+}
+.title .contact_details {
+	color:  #ccc;
+	letter-spacing: 3px;
+}
+.title .contact_details span{
+color:  #000;
+font-weight: bold;
+letter-spacing: 1px;
+}
+.title p {
+font-size: 1.3em;
+color:  #888;
+font-style:  italic;
+margin: .5em 0 1em;
+}
+
+.references p {
+	margin:  0;
+	color:  #888;
+	font-style: italic;
+}
+.portfolio_entry {
+	margin:  0 0 1em;
+}
+
+.website{
+	font-style: italic;
+	font-size: 1.3em;
+	color:  #888;
+}
+.reference{
+	margin-bottom: 1em;
+}
+.skills ul, .software ul {
+	list-style: none;
+	padding-left: 0;
+	}
+.skills li, .software li{
+	color:  #888;
+}
+.experience .the_date {
+	color:  #888;
+}
