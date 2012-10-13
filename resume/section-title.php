@@ -17,7 +17,7 @@ $meta_data = get_resume_meta($post->ID);
 <div class="entry-content span-20 last">
 <h1 class="entry-title span-12"><?php the_title(); ?></h1>
 <div class="the_date span-8 last">
-<strong>Last Updated: </strong><span class="updated"><?php echo $meta_data['the_date']; ?></span>
+<strong>Last Updated: </strong><span class="updated"><?php the_modified_time('F j, Y'); ?></span>
 </div>
 <div class="span-20">
 <?php the_content(); ?>
