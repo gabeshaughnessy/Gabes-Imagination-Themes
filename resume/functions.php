@@ -25,12 +25,6 @@ return $resume_meta;
 
 add_action( 'add_meta_boxes', 'resume_add_custom_box' );
 
-// backwards compatible (before WP 3.0)
-// add_action( 'admin_init', 'resume_add_custom_box', 1 );
-
-/* Do something with the data entered */
-add_action( 'save_post', 'resume_save_postdata' );
-
 /* Adds a box to the main column on the Post and Page edit screens */
 function resume_add_custom_box() {
     add_meta_box( 
