@@ -9,7 +9,7 @@ get_template_part( 'section', 'title');
 get_template_part( 'section', 'skills');
 get_template_part( 'section', 'software');
 get_template_part( 'section', 'experience');
-get_template_part( 'section', 'portfolio');
+//get_template_part( 'section', 'portfolio');
 get_template_part( 'section', 'references');
 get_template_part( 'section', 'education');
 get_template_part( 'section', 'interests');

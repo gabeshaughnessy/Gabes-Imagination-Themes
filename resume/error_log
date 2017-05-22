@@ -1,0 +1,10 @@
+[29-Feb-2016 13:17:58] PHP Fatal error:  Call to undefined function  get_bloginfo() in /home2/gabesima/public_html/wp-content/themes/resume/header.php on line 5
+[29-Feb-2016 13:17:59] PHP Fatal error:  Call to undefined function  add_theme_support() in /home2/gabesima/public_html/wp-content/themes/resume/functions.php on line 3
+[12-Mar-2016 17:19:41] PHP Fatal error:  Call to undefined function  add_theme_support() in /home2/gabesima/public_html/wp-content/themes/resume/functions.php on line 3
+[08-Jul-2016 01:50:56] PHP Fatal error:  Call to undefined function  add_theme_support() in /home2/gabesima/public_html/wp-content/themes/resume/functions.php on line 3
+[08-Jul-2016 02:02:11] PHP Fatal error:  Call to undefined function  add_theme_support() in /home2/gabesima/public_html/wp-content/themes/resume/functions.php on line 3
+[03-Aug-2016 01:02:05] PHP Fatal error:  Call to undefined function  add_theme_support() in /home2/gabesima/public_html/wp-content/themes/resume/functions.php on line 3
+[05-Aug-2016 13:51:18] PHP Fatal error:  Call to undefined function  add_theme_support() in /home2/gabesima/public_html/wp-content/themes/resume/functions.php on line 3
+[05-Aug-2016 22:30:05] PHP Fatal error:  Call to undefined function  add_theme_support() in /home2/gabesima/public_html/wp-content/themes/resume/functions.php on line 3
+[07-Aug-2016 13:54:23] PHP Fatal error:  Call to undefined function  get_bloginfo() in /home2/gabesima/public_html/wp-content/themes/resume/header.php on line 5
+[10-Aug-2016 09:17:09] PHP Fatal error:  Call to undefined function  add_theme_support() in /home2/gabesima/public_html/wp-content/themes/resume/functions.php on line 3

@@ -17,7 +17,7 @@ $meta_data = get_resume_meta($post->ID);
 <div class="entry-content span-20 last">
 <h1 class="entry-title span-12"><?php the_title(); ?></h1>
 <div class="the_date span-8 last">
-<strong>Last Updated: </strong><span class="updated"><?php the_modified_time('F j, Y'); ?></span>
+<strong>Last Updated: </strong><span class="updated"><?php echo date('F j, Y'); ?></span>
 </div>
 <div class="span-20">
 <?php the_content(); ?>
@@ -26,11 +26,12 @@ $meta_data = get_resume_meta($post->ID);
 
 </div>
 <div class="contact_details span-20 last">
-<span class="address"><?php echo $meta_data['address']; ?> </span>|  
-<span class="city-state "><?php echo $meta_data['city']; ?>, <?php echo $meta_data['state'] ?>  </span>|
+<span class="address"><?php echo $meta_data['address']; ?> </span> |  
+<span class="city-state "> <?php echo $meta_data['city']; ?>, <?php echo $meta_data['state'] ?>  </span> |
 
-<span class="phone"><?php echo $meta_data['phone']; ?> </span>| 
-<span class="email"><?php echo $meta_data['email']; ?></span>
+<span class="phone"> <?php echo $meta_data['phone']; ?> </span> | 
+<span class="email"> <?php echo $meta_data['email']; ?></span> |
+<span class="social"> <a href="https://plus.google.com/100447117508046618740" rel="publisher">Social</a></span>
 </div>	
 <!--<span class="website span-9"><?php echo $meta_data['website']; ?></span>-->
 

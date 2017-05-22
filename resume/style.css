@@ -90,6 +90,14 @@ margin: .5em 0 1em;
 	font-size: 1.3em;
 	color:  #888;
 }
+.social a {
+text-decoration: none;
+color: #000;
+}
+.social a:hover {
+text-decoration: none;
+color: #555;
+}
 .reference{
 	margin-bottom: 1em;
 }
