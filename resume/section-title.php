@@ -10,22 +10,22 @@ $my_query = new WP_Query('category_name='. $cat_name .'&posts_per_page=1');
 while ($my_query->have_posts()) : $my_query->the_post(); 
 $meta_data = get_resume_meta($post->ID);
 ?>
-<div class="span-4"><?php if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+<div class="span-5"><?php if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
   the_post_thumbnail('title-thumb');
 } 
 ?> </div>
-<div class="entry-content span-20 last">
+<div class="entry-content span-19 last">
 <h1 class="entry-title span-12"><?php the_title(); ?></h1>
-<div class="the_date span-8 last">
-<strong>Last Updated: </strong><span class="updated"><?php echo date('F j, Y'); ?></span>
+<div class="the_date span-7 last">
+<strong>Last Updated: </strong><span class="updated">May 21st, 2017</span>
 </div>
-<div class="span-20">
+<div class="span-19">
 <?php the_content(); ?>
 </div>
 
 
 </div>
-<div class="contact_details span-20 last">
+<div class="contact_details span-19 last">
 <span class="address"><?php echo $meta_data['address']; ?> </span> |  
 <span class="city-state "> <?php echo $meta_data['city']; ?>, <?php echo $meta_data['state'] ?>  </span> |
 
