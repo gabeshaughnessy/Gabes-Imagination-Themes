@@ -84,7 +84,7 @@ function resume_inner_custom_box( $post ) {
   echo '<label for="the_date">';
        _e("Date", 'resume_textdomain' );
   echo '</label> ';
-  echo '<input type="date" id="the_date" name="the_date" value="'.$the_date.'" size="30" /> <br />';
+  echo '<input type="text" id="the_date" name="the_date" value="'.$the_date.'" size="30" /> <br />';
 }
 
 // Save the Metabox Data
